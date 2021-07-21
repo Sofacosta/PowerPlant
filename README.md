@@ -1,12 +1,10 @@
 # TITLE OF PROJECT - THIS REPO IS AN ENVIRONMENT TEMPLATE FOR FUTURE PROJECTS.THIS IS NOT COMPLETE OR PORTFOLIO READY STATE. 
 ## Name of project ( For example: Independent project #3 for Epicodus)
-### Project initiated: 00-00-0000
+### Project initiated: 07-20-2021
 ### Project modified: 00-00-0000
-### By Sofia Acosta
+### By Sofia Acosta and Juan Hasbun
 ## Project Description
-This is a detailed description of the project. A summary of valuable information for the users and developers. 
-## Preview 
-* Link to GitHub Pages. 
+Power Plant, an application for growing plants. This is a class project to practice Functional Programnig with Javascript  
 
 ## Technologies Used
  
@@ -48,3 +46,4 @@ This is a detailed description of the project. A summary of valuable information
 * Copyright 2021 Sofia Acosta
 ## Contact
 * Sofia Acosta sofiaacostarascon@gmail.com
+
