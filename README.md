@@ -1,10 +1,9 @@
-# TITLE OF PROJECT - THIS REPO IS AN ENVIRONMENT TEMPLATE FOR FUTURE PROJECTS.THIS IS NOT COMPLETE OR PORTFOLIO READY STATE. 
-## Name of project ( For example: Independent project #3 for Epicodus)
+# POWER PLANT. Class project to practice Functional programming with Javascript.  g
 ### Project initiated: 07-20-2021
 ### Project modified: 00-00-0000
 ### By Sofia Acosta and Juan Hasbun
 ## Project Description
-Power Plant, an application for growing plants. This is a class project to practice Functional Programnig with Javascript  
+Power Plant, an application for growing plants. This is a class project to practice Functional Programnig with Javascript. This project is not complete or portfolio ready state   
 
 ## Technologies Used
  
