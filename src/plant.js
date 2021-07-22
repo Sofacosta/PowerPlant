@@ -23,14 +23,24 @@ const changeState = (prop) => {
   }
 }
 
+const storeNewState = (inputState) => {
+  let currentState = inputState;
+  return (stateChangeFunction = state => state) => {
+    const newState = stateChangeFunction(currentState);
+    currentState = {...newState};
+    return newState;
+  }
+}
+
+
 // We create four functions using our function factory. We could easily create many more.
 
 const feed = changeState("soil")(1);
 const blueFood = changeState("soil")(5);
-
 const hydrate = changeState("water")(1);
 const superWater = changeState("water")(5);
-
 const giveLight = changeState("light")(1);
+const newPlant = storeNewState({soil: 0, water: 0, light: 0, 'type': 'cactus'})
+
 
 export { feed, blueFood, hydrate, superWater, stateControl, giveLight}
