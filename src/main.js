@@ -1,7 +1,7 @@
 //import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
-import { feed, blueFood, hydrate, superWater, stateControl } from './plant.js';
+import { feed, blueFood, hydrate, superWater, giveLight, stateControl } from './plant.js';
 
 $(document).ready(function() {
 
