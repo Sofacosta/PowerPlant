@@ -1,5 +1,4 @@
-import $ from 'jquery';
-import 'bootstrap';
+//import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
 import { feed, blueFood, hydrate, superWater, stateControl } from './plant.js';
@@ -9,7 +8,22 @@ $(document).ready(function() {
   // This function has side effects because we are using jQuery. Manipulating the DOM will always be a side effect. Note that we only use one of our functions to alter soil. You can easily add more.
   
     $('#feed').click(function() {
+      const newState = stateControl(feed);
+      $('#soil-value').text(`Soil: ${newState.soil}`);
+    });
+
+    $('#bluefood').click(function() {
       const newState = stateControl(blueFood);
+      $('#soil-value').text(`Soil: ${newState.soil}`);
+    });
+
+    $('#hydrate').click(function() {
+      const newState = stateControl(hydrate);
+      $('#soil-value').text(`Soil: ${newState.soil}`);
+    });
+
+    $('#superwater').click(function() {
+      const newState = stateControl(superWater);
       $('#soil-value').text(`Soil: ${newState.soil}`);
     });
   
